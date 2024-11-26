@@ -1,0 +1,147 @@
+body {
+    /*background-image: url('/images/back3.jpg');*/
+    background-size: cover;
+    background-color: #EDEFF5;
+}
+
+.header_classs {
+    color: white;
+    text-align: center;
+    /* margin-top: 3%; */
+    height: 50px;
+    padding-top: 15px;
+    background: #b01a1ae8;
+    position: fixed;
+    width: 99%;
+    border-radius: 40px;
+}
+
+.nav_icon {
+    width: 1.5%;
+    color: white;
+    padding: 5px 9px;
+    float: left;
+    padding-left: 2%;
+}
+
+.nav_icon2 {
+    width: 2%;
+    color: white;
+    padding: 1px 9px;
+    float: left;
+}
+
+.menu_button1 {
+    background: none;
+    
+    border-style: solid;
+    border-width: 0px;    
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    float: left; 
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 0%;
+}
+
+#experience {
+    padding: 5%;
+}
+
+#experience h1 {
+    letter-spacing: 2px;
+    border-bottom: 7px solid #b73056;
+    width: 6%;
+}
+
+#experience img {
+    width:25%;
+    margin:4%;
+
+}
+
+#experience img:hover{
+    transform: scale(1.2);
+}
+
+.position_tags {
+    display: flex;
+}
+
+.position_tags h2 {
+    margin: 10%;
+    margin-top: 0%;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav_icon {
+        display: none;
+    }
+
+    .nav_icon2 {
+        display: none;
+    }
+    
+    .header_classs {
+        width:97%;
+        position: fixed;
+    }
+
+    .menu_button1 {
+        font-size: 11px;
+        padding:3%
+    }
+
+    #experience {
+        padding-top: 20%;
+    }
+
+    #experience img {
+        width:85%;
+        margin: 5%;
+    }
+
+    .position_tags {
+        display: none;
+    }
+
+    #experience h1 {
+        width:25%;
+    }
+
+}
+
+#More h1 {
+    /*padding-left: 5%; */     
+    letter-spacing: 2px;
+    border-bottom: 7px solid #3930B7;
+    width: 5%;
+    font-style: italic;
+}
+
+#More h2 {
+    /* padding-left: 5%;     */
+    letter-spacing: 2px;
+    font-style: italic;
+    border-bottom: 7px solid #3930B7;
+    width: 6%;
+}
+
+.More_card {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;            
+}
+
+.More_a {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;            
+}
